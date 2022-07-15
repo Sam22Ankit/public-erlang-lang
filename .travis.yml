@@ -10,7 +10,6 @@ jobs:
       script:
         - echo "Erlang language installed !!"
         - erlc hello_world.erl
-        - erl -noshell -s hello_world hello -s init stop
     - dist: jammy
       virt: lxd
       language: erlang
@@ -20,7 +19,6 @@ jobs:
       script:
         - echo "Erlang language installed !!"
         - erlc hello_world.erl
-        - erl -noshell -s hello_world hello -s init stop
     - dist: bionic
       virt: vm
       language: erlang
@@ -30,7 +28,6 @@ jobs:
       script:
         - echo "Erlang language installed !!"
         - erlc hello_world.erl
-        - erl -noshell -s hello_world hello -s init stop
     - dist: bionic
       virt: lxd
       language: erlang
@@ -40,7 +37,6 @@ jobs:
       script:
         - echo "Erlang language installed !!"
         - erlc hello_world.erl
-        - erl -noshell -s hello_world hello -s init stop
     - dist: xenial
       virt: vm
       language: erlang
@@ -50,7 +46,6 @@ jobs:
       script:
         - echo "Erlang language installed !!"
         - erlc hello_world.erl
-        - erl -noshell -s hello_world hello -s init stop
     - dist: xenial
       virt: lxd
       language: erlang
@@ -60,7 +55,6 @@ jobs:
       script:
         - echo "Erlang language installed !!"
         - erlc hello_world.erl
-        - erl -noshell -s hello_world hello -s init stop
     - dist: focal
       virt: vm
       language: erlang
@@ -70,7 +64,6 @@ jobs:
       script:
         - echo "Erlang language installed !!"
         - erlc hello_world.erl
-        - erl -noshell -s hello_world hello -s init stop
     - dist: focal
       virt: lxd
       language: erlang
@@ -80,4 +73,3 @@ jobs:
       script:
         - echo "Erlang language installed !!"
         - erlc hello_world.erl
-        - erl -noshell -s hello_world hello -s init stop
