@@ -6,8 +6,7 @@ jobs:
       language: erlang
       arch: amd64
       otp_release:
-        - "23.0.2"
-        - "22.3.4"
+        - "25.0.2"
       script:
         - c(hello)
         - hello:start()
@@ -16,8 +15,7 @@ jobs:
       language: erlang
       arch: amd64
       otp_release:
-        - "23.0.2"
-        - "22.3.4"
+        - "25.0.2"
       script:
         - c(hello)
         - hello:start()
@@ -26,8 +24,7 @@ jobs:
       language: erlang
       arch: amd64
       otp_release:
-        - "23.0.2"
-        - "22.3.4"
+        - "25.0.2"
       script:
         - c(hello)
         - hello:start()
@@ -36,8 +33,7 @@ jobs:
       language: erlang
       arch: amd64
       otp_release:
-        - "23.0.2"
-        - "22.3.4"
+        - "25.0.2"
       script:
         - c(hello)
         - hello:start()
@@ -46,8 +42,7 @@ jobs:
       language: erlang
       arch: amd64
       otp_release:
-        - "23.0.2"
-        - "22.3.4"
+        - "25.0.2"
       script:
         - c(hello)
         - hello:start()
@@ -56,8 +51,7 @@ jobs:
       language: erlang
       arch: amd64
       otp_release:
-        - "23.0.2"
-        - "22.3.4"
+        - "25.0.2"
       script:
         - c(hello)
         - hello:start()
@@ -66,8 +60,7 @@ jobs:
       language: erlang
       arch: amd64
       otp_release:
-        - "23.0.2"
-        - "22.3.4"
+        - "25.0.2"
       script:
         - c(hello)
         - hello:start()
@@ -76,8 +69,7 @@ jobs:
       language: erlang
       arch: amd64
       otp_release:
-        - "23.0.2"
-        - "22.3.4"
+        - "25.0.2"
       script:
         - c(hello)
         - hello:start()
