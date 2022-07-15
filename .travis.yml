@@ -9,8 +9,8 @@ jobs:
         - "23.0.2"
         - "22.3.4"
       script:
-        - c(hello_world)
-        - hello_world:start()
+        - c(hello)
+        - hello:start()
     - dist: jammy
       virt: lxd
       language: erlang
@@ -19,8 +19,8 @@ jobs:
         - "23.0.2"
         - "22.3.4"
       script:
-        - c(hello_world)
-        - hello_world:start()
+        - c(hello)
+        - hello:start()
     - dist: bionic
       virt: vm
       language: erlang
@@ -29,8 +29,8 @@ jobs:
         - "23.0.2"
         - "22.3.4"
       script:
-        - c(hello_world)
-        - hello_world:start()
+        - c(hello)
+        - hello:start()
     - dist: bionic
       virt: lxd
       language: erlang
@@ -39,8 +39,8 @@ jobs:
         - "23.0.2"
         - "22.3.4"
       script:
-        - c(hello_world)
-        - hello_world:start()
+        - c(hello)
+        - hello:start()
     - dist: xenial
       virt: vm
       language: erlang
@@ -49,8 +49,8 @@ jobs:
         - "23.0.2"
         - "22.3.4"
       script:
-        - c(hello_world)
-        - hello_world:start()
+        - c(hello)
+        - hello:start()
     - dist: xenial
       virt: lxd
       language: erlang
@@ -59,8 +59,8 @@ jobs:
         - "23.0.2"
         - "22.3.4"
       script:
-        - c(hello_world)
-        - hello_world:start()
+        - c(hello)
+        - hello:start()
     - dist: focal
       virt: vm
       language: erlang
@@ -69,8 +69,8 @@ jobs:
         - "23.0.2"
         - "22.3.4"
       script:
-        - c(hello_world)
-        - hello_world:start()
+        - c(hello)
+        - hello:start()
     - dist: focal
       virt: lxd
       language: erlang
@@ -79,5 +79,5 @@ jobs:
         - "23.0.2"
         - "22.3.4"
       script:
-        - c(hello_world)
-        - hello_world:start()
+        - c(hello)
+        - hello:start()
