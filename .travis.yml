@@ -8,7 +8,7 @@ jobs:
       otp_release:
         - "25.0.2"
       script:
-        - make tests
+        - echo "Erlang language installed !!"
     - dist: jammy
       virt: lxd
       language: erlang
