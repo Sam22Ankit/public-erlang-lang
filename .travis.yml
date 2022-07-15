@@ -9,7 +9,8 @@ jobs:
         - "25.0.2"
       script:
         - echo "Erlang language installed !!"
-        - c(hello)
+        - pwd().
+        - c(hello).
         - hello:start().
     - dist: jammy
       virt: lxd
@@ -19,7 +20,8 @@ jobs:
         - "25.0.2"
       script:
         - echo "Erlang language installed !!"
-        - c(hello)
+        - pwd().
+        - c(hello).
         - hello:start().
     - dist: bionic
       virt: vm
@@ -29,7 +31,8 @@ jobs:
         - "25.0.2"
       script:
         - echo "Erlang language installed !!"
-        - c(hello)
+        - pwd().
+        - c(hello).
         - hello:start().
     - dist: bionic
       virt: lxd
@@ -39,7 +42,8 @@ jobs:
         - "25.0.2"
       script:
         - echo "Erlang language installed !!"
-        - c(hello)
+        - pwd().
+        - c(hello).
         - hello:start().
     - dist: xenial
       virt: vm
@@ -49,7 +53,8 @@ jobs:
         - "25.0.2"
       script:
         - echo "Erlang language installed !!"
-        - c(hello)
+        - pwd().
+        - c(hello).
         - hello:start().
     - dist: xenial
       virt: lxd
@@ -59,7 +64,8 @@ jobs:
         - "25.0.2"
       script:
         - echo "Erlang language installed !!"
-        - c(hello)
+        - pwd().
+        - c(hello).
         - hello:start().
     - dist: focal
       virt: vm
@@ -69,7 +75,8 @@ jobs:
         - "25.0.2"
       script:
         - echo "Erlang language installed !!"
-        - c(hello)
+        - pwd().
+        - c(hello).
         - hello:start().
     - dist: focal
       virt: lxd
@@ -79,5 +86,6 @@ jobs:
         - "25.0.2"
       script:
         - echo "Erlang language installed !!"
-        - c(hello)
+        - pwd().
+        - c(hello).
         - hello:start().
