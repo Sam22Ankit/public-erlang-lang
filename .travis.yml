@@ -8,8 +8,7 @@ jobs:
       otp_release:
         - "25.0.2"
       script:
-        - c(hello)
-        - hello:start()
+        - make tests
     - dist: jammy
       virt: lxd
       language: erlang
@@ -17,8 +16,7 @@ jobs:
       otp_release:
         - "25.0.2"
       script:
-        - c(hello)
-        - hello:start()
+        - make tests
     - dist: bionic
       virt: vm
       language: erlang
@@ -26,8 +24,7 @@ jobs:
       otp_release:
         - "25.0.2"
       script:
-        - c(hello)
-        - hello:start()
+        - make tests
     - dist: bionic
       virt: lxd
       language: erlang
@@ -35,8 +32,7 @@ jobs:
       otp_release:
         - "25.0.2"
       script:
-        - c(hello)
-        - hello:start()
+        - make tests
     - dist: xenial
       virt: vm
       language: erlang
@@ -44,8 +40,7 @@ jobs:
       otp_release:
         - "25.0.2"
       script:
-        - c(hello)
-        - hello:start()
+        - make tests
     - dist: xenial
       virt: lxd
       language: erlang
@@ -53,8 +48,7 @@ jobs:
       otp_release:
         - "25.0.2"
       script:
-        - c(hello)
-        - hello:start()
+        - make tests
     - dist: focal
       virt: vm
       language: erlang
@@ -62,8 +56,7 @@ jobs:
       otp_release:
         - "25.0.2"
       script:
-        - c(hello)
-        - hello:start()
+        - make tests
     - dist: focal
       virt: lxd
       language: erlang
@@ -71,5 +64,4 @@ jobs:
       otp_release:
         - "25.0.2"
       script:
-        - c(hello)
-        - hello:start()
+        - make tests
