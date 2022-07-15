@@ -1,6 +1,5 @@
-cat hello_world.erl                                                                                                                                                                          [14:05:22]
 -module(hello_world).
--compile(export_all).
+-export([start/0]).
 
-hello() ->
-    io:format("Hello World~n").
+start() ->
+	io:format("Hello, World!~n").
